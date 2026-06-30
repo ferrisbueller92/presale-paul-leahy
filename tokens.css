@@ -1,0 +1,55 @@
+/* Paul Leahy Shoe Repairs — design tokens. Heritage cobbler / key-cutting trade.
+   Grounded: 1/190 Military Rd, Neutral Bay NSW 2089; (02) 9953 7126; shoe repair,
+   resoling, reheeling, key cutting, car remote batteries, leather & bag repair;
+   Mon-Fri 8-5, Sat 9-1, Sun closed. NO logo, NO website.
+   HONESTY NOTE: 4.2 Google rating with mixed reviews — this build is SERVICES-LED.
+   Deliberately NO star-rating badge and NO review carousel (would misrepresent).
+   DISTINCT from prior builds (cafes = warm cream/caramel/green serif & sans; trades = steel-blue/amber):
+   Paul Leahy = HERITAGE TRADE — parchment + charcoal ink + leather-tan + OXBLOOD accent
+   (echoes the red repaired soles), a sturdy SLAB-SERIF display (Zilla Slab) + Inter body,
+   LEFT-RAIL editorial hero, compact utilitarian footer bar. */
+:root{
+  /* palette — heritage cobbler */
+  --ink:      #211F1C;   /* warm charcoal — dark panels / hero rail */
+  --ink-2:    #2C2926;
+  --bone:     #F1EADD;   /* parchment ground */
+  --paper:    #F7F2E8;
+  --sand:     #E7DCC8;   /* pale toasted surface */
+  --tan:      #A9743F;   /* leather tan — mid accent */
+  --tan-deep: #855A2E;
+  --oxblood:  #7C2E2A;   /* repaired-sole red — signature accent */
+  --oxblood-deep:#5E211E;
+  --brass:    #B08D4F;   /* fine detail line */
+  --text:     #2A2622;   /* warm near-black body */
+  --muted:    #6F665B;
+  --on-dark:  #F1EADD;
+  --on-dark-soft: rgba(241,234,221,.78);
+  --line:     rgba(33,31,28,.16);
+  --line-soft:rgba(33,31,28,.09);
+  --line-dark:rgba(241,234,221,.18);
+
+  /* type */
+  --f-display:"Zilla Slab","Georgia",serif;            /* sturdy slab — workshop signage / craft */
+  --f-body:   "Inter","Helvetica Neue",Arial,sans-serif;
+  --t-hero: clamp(2.5rem, 5.4vw, 4.7rem);
+  --t-h2:   clamp(1.8rem, 3.8vw, 3rem);
+  --t-h3:   clamp(1.15rem, 1.7vw, 1.4rem);
+  --t-body: 1.06rem;
+  --t-kicker:.72rem;
+
+  /* spacing */
+  --s-2:.5rem; --s-3:.85rem; --s-4:1.4rem; --s-5:2.2rem; --s-6:3.4rem; --s-7:clamp(4rem,9vw,7rem);
+  --maxw:1160px;
+
+  /* radii — modest, utilitarian */
+  --r-sm:6px; --r-md:11px; --r-lg:16px; --r-pill:999px;
+
+  /* shadows */
+  --shadow-soft: 0 24px 56px -30px rgba(20,18,16,.5);
+  --shadow-card: 0 14px 32px -20px rgba(20,18,16,.34);
+
+  /* motion */
+  --dur:.55s;
+  --ease: cubic-bezier(.22,1,.36,1);
+  --ease-out: cubic-bezier(.16,1,.3,1);
+}
